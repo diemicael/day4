@@ -2,9 +2,9 @@ name: Hello World Integração Contínua!
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
   pull_request:
-    branches: ["main"]
+    branches: ["master"]
     
 jobs:
   OlaMundo:
